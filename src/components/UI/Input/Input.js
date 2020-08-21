@@ -24,7 +24,7 @@ const Input = props => {
                 value={props.value}
                 onChange={props.onChange}
             />
-            {isValidate(props) ? <span>props.errorMessage || 'Введите верное значение'</span> : null}
+            {isValidate(props) ? <span> {props.errorMessage || 'Введите верное значение'}</span> : null}
 
         </div>
     )
